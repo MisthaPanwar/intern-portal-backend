@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-4_+ll!q%t0g0#&@3k^+m9xgw(qg4=%(y+*-3n%g64b-0jop(&t
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # Add your Render app URL here. The '*' is a fallback for initial deployment.
-ALLOWED_HOSTS = ['your-render-app-name.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['intern-portal-backend-ebn9.onrender.com', '127.0.0.1']
 
 
 # Application definition
